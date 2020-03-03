@@ -30,7 +30,7 @@ const server = http.createServer((req, res) => {
   res.setHeader('Content-Type', 'text/html');
   res.write('<html>');
   res.write('<head><title>My first page</title></head>');
-  res.write('<body>Hello there.</body>');
+  res.write('<body>Hello there. I am creating this app.</body>');
   res.write('</html>');
   res.end();
 });
